@@ -2,6 +2,15 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
   }
+
+.display-3 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}  
+
+.lead {
+    font-family: 'Ubuntu Mono', monospace;
+}
   
   textarea {
     background: transparent;
@@ -12,9 +21,15 @@ body {
     padding: 10px;
   }
   
+  .hour {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+  }
+
   .description {
     white-space: pre-wrap;
     border: solid black 1px;
+    font-family: 'Montserrat Alternates', sans-serif;
   }
   
   .time-block {
@@ -32,17 +47,17 @@ body {
   }
   
   .past {
-    background-color: #d3d3d3;
+    background-color: rgb(250, 208, 184);
     color: white;
   }
   
   .present {
-    background-color: #ff6961;
+    background-color: rgb(251, 166, 117);
     color: white;
   }
   
   .future {
-    background-color: #77dd77;
+    background-color: rgb(239, 116, 45);
     color: white;
   }
   
@@ -50,7 +65,7 @@ body {
     border-left: 1px solid black;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-color: #06aed5;
+    background-color: rgb(236, 9, 77);
     color: white;
   }
   
